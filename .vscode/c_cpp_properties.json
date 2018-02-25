@@ -7,13 +7,16 @@
                 "/home/pi/Downloads/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2/include",
                 "/home/pi/Downloads/arduino-1.8.5/hardware/tools/avr/avr/include",
                 "/home/pi/Downloads/arduino-1.8.5/hardware/arduino/avr/variants/mega",
-                "/home/pi/Arduino/libraries/Bounce2"
+                "/home/pi/Arduino/libraries/Bounce2",
+                "/home/pi/Arduino/libraries/MicroDebug"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
                     "/home/pi/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino",
-                    "${workspceRoot}"
+                    "/home/pi/Arduino/libraries/Bounce2",
+                    "${workspceRoot}",
+                    "/home/pi/Arduino/libraries/MicroDebug"
                 ]
             },
             "intelliSenseMode": "clang-x64"
