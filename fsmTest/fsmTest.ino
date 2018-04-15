@@ -100,6 +100,7 @@ void setup()
     fsm.add_transition(&state_blik,&state_houk,HOUK,NULL);
     fsm.add_transition(&state_houk,&state_blik,BLIK,NULL);
     SERIAL_DEBUG_SETUP(57600);
+    //Serial.begin(9600);
 }
 
 void loop()
