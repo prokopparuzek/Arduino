@@ -16,7 +16,7 @@ void houkacka(void);
 void blik(void);
 int butTest(struct change *change);
 void prepnuti();
-
+//test 
 Bounce debouncer1 = Bounce();
 Bounce debouncer2 = Bounce();
 
